@@ -21,6 +21,26 @@ p {
     padding-right: 2em;
 }
 
+h2 {
+    font-family: 'HeyAugust';
+    letter-spacing: 0.1em;
+}
+
+.third-page-text {
+    color: #ECF4E3;
+    padding: 2em 1em;
+}
+
+.third-page-text-middle {
+    padding-bottom: 2em;
+    color: #ECF4E3
+}
+
+.large-text {
+    font-size: 1.5em;
+}
+
+
 .beigetext {
     color: #C0B271;
 }
@@ -88,6 +108,10 @@ div.fpsScrollNode.active {
 
     .right-blob {
         background-size: 50%;
+    }
+
+    .third-page-columns {
+        height: 33.3vh;
     }
 
 
