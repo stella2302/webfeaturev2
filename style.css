@@ -1,3 +1,28 @@
+@font-face {
+    font-family: "HeyAugust";
+    src: url("./fonts/hey_august-webfont.woff");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("./fonts/avenir_roman-webfont.woff");
+}
+
+.first-page-title {
+    font-family: 'HeyAugust';
+    font-size: 4rem;
+    color: #ECF4E3;
+}
+
+p {
+    font-family: 'Avenir';
+    color: #ECF4E3;
+}
+
+.beigetext {
+    color: #C0B271;
+}
+
 div.fpsScrollbar {
     /* styles for whole scrollbar container */
 }
@@ -48,16 +73,25 @@ div.fpsScrollNode.active {
     .col {
         height: 50vh;
     }
+
+    .first-page-title {
+        font-size: 3em;
+        padding-bottom:
+    }
+
+    .first-page-text p {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .right-blob {
+        background-size: 50%;
+    }
+
+
 }
 
 /*front page*/
-
-.left-blob {
-    background-image: url("pictures/Group%203695.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-}
 
 .right-blob {
     background-image: url("pictures/Group%203696.png");
