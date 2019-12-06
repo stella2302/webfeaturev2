@@ -17,6 +17,8 @@
 p {
     font-family: 'Avenir';
     color: #ECF4E3;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .beigetext {
@@ -95,6 +97,13 @@ div.fpsScrollNode.active {
 
 .right-blob {
     background-image: url("pictures/Group%203696.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.right-blob2 {
+    background-image: url(pictures/blobcars.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
