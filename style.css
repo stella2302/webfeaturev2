@@ -1,0 +1,67 @@
+div.fpsScrollbar {
+    /* styles for whole scrollbar container */
+}
+
+div.fpsScrollNode {
+    /* styles for indicators */
+    border-radius: 5px;
+}
+
+div.fpsScrollNode.active {
+    /* styles for active indicator */
+    background-color: rgb(152, 122, 81);
+}
+
+#fixedBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    transition: background-color .75s cubic-bezier(.85, .14, .37, 1);
+}
+
+#fixedBackground.bg1 {
+    background-color: #253A0C;
+}
+
+#fixedBackground.bg2 {
+    background-color: #455D28;
+}
+
+#fixedBackground.bg3 {
+    background-color: #648142;
+}
+
+#fixedBackground.bg4 {
+    background-color: #8AA569;
+}
+
+#fixedBackground.bg5 {
+    background-color: #B6CC9C;
+}
+
+.col {
+    height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+
+    .col {
+        height: 50vh;
+    }
+}
+
+/*front page*/
+
+.left-blob {
+    background-image: url("pictures/Group%203695.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.right-blob {
+    background-image: url("pictures/Group%203696.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
