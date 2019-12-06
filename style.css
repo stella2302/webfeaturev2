@@ -1,3 +1,4 @@
+/**GENERAL STUF*******************/
 @font-face {
     font-family: "HeyAugust";
     src: url("./fonts/hey_august-webfont.woff");
@@ -8,12 +9,6 @@
     src: url("./fonts/avenir_roman-webfont.woff");
 }
 
-.first-page-title {
-    font-family: 'HeyAugust';
-    font-size: 4rem;
-    color: #ECF4E3;
-}
-
 p {
     font-family: 'Avenir';
     color: #ECF4E3;
@@ -21,25 +16,14 @@ p {
     padding-right: 2em;
 }
 
+h1 {
+    letter-spacing: 0.12em;
+}
+
 h2 {
     font-family: 'HeyAugust';
     letter-spacing: 0.1em;
 }
-
-.third-page-text {
-    color: #ECF4E3;
-    padding: 2em 1em;
-}
-
-.third-page-text-middle {
-    padding-bottom: 2em;
-    color: #ECF4E3
-}
-
-.large-text {
-    font-size: 1.5em;
-}
-
 
 .beigetext {
     color: #C0B271;
@@ -90,7 +74,54 @@ div.fpsScrollNode.active {
     height: 100vh;
 }
 
-/****GENERAL MOBIL EQUERY*********/
+
+/**FIRST PAGE***********************/
+.first-page-title {
+    font-family: 'HeyAugust';
+    font-size: 4rem;
+    color: #ECF4E3;
+}
+
+.imgwrapper img {
+    max-width: 90%;
+}
+
+/*
+.right-blob {
+    background-image: url("pictures/Group%203696.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+*/
+
+/**************SECOND PAGE************/
+.right-blob2 {
+    background-image: url(pictures/blobcars.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+/*****THIRD PAGE*************/
+.third-page-text {
+    color: #ECF4E3;
+    padding: 2em 1em;
+}
+
+.third-page-text-middle {
+    padding-bottom: 2em;
+    color: #ECF4E3
+}
+
+.large-text {
+    font-size: 1.5em;
+}
+
+
+
+/****GENERAL MOBILE EQUERY*********/
 @media screen and (max-width: 992px) {
 
     .col {
@@ -124,23 +155,4 @@ div.fpsScrollNode.active {
         padding-bottom: 0;
     }
 
-}
-
-/****THIRD PAGE MOBILE QUERY******/
-@media screen and (max-width: 576px) {}
-
-/*front page*/
-
-.right-blob {
-    background-image: url("pictures/Group%203696.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-
-.right-blob2 {
-    background-image: url(pictures/blobcars.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
 }
