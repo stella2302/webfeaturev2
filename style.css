@@ -90,7 +90,8 @@ div.fpsScrollNode.active {
     height: 100vh;
 }
 
-@media screen and (max-width: 576px) {
+/****GENERAL MOBIL EQUERY*********/
+@media screen and (max-width: 992px) {
 
     .col {
         height: 50vh;
@@ -114,8 +115,19 @@ div.fpsScrollNode.active {
         height: 33.3vh;
     }
 
+    .third-page-columns img {
+        display: none;
+    }
+
+    .third-page-text-middle {
+        padding: 2em 1em;
+        padding-bottom: 0;
+    }
 
 }
+
+/****THIRD PAGE MOBILE QUERY******/
+@media screen and (max-width: 576px) {}
 
 /*front page*/
 
